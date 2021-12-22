@@ -138,7 +138,7 @@ this.$emit('update:title', newValue)
 
 ### `v-model` 修饰符
 
-除了像 `.trim` 这样的 2.x 硬编码的 `v-model` 修饰符外，现在 3.x 还支持自定义修饰符：
+除了像 `.trim` 这样的 2.x 硬编码的 `v-model` 修饰符外，现在 3.x 还支持自定义修饰符:
 
 ```html
 <ChildComponent v-model.capitalize="pageTitle" />
